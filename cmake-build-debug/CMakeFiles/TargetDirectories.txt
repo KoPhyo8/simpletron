@@ -1,0 +1,3 @@
+D:/2SAEI_Class/SimpleTron/cmake-build-debug/CMakeFiles/SimpleTron.dir
+D:/2SAEI_Class/SimpleTron/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/2SAEI_Class/SimpleTron/cmake-build-debug/CMakeFiles/rebuild_cache.dir
