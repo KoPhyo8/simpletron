@@ -14,7 +14,8 @@
 #define BRANCHZERO  42
 #define HALT    43
 int i, j, height = 32,width = 32;
-int main() {
+int main() 
+{
     int memory[100] = {0};
     int accumulator = 0;
     int instruction_counter = 0; //boot address 0000
@@ -86,43 +87,8 @@ int main() {
                 exit(0);
                 break;
         }
-
-
-        for (i = 0; i < (height-21); i++) {
-            for (j = 0; j < width; j++) {
-                if (i == 0 || i == (width - 1) || j == 0 || j == (height - 1)) {
-                    printf("_");
-                }
-                else {
-                    if(i==1){
-                        if(j == 1){printf("Accumulator");j+=12;}
-                        if(j ==24){ printf("  %04d",accumulator);j+=5;}
-                    }
-                    if(i==3){
-                        if(j == 1){printf("Instruction Counter");j+=20;}
-                        if(j ==24){ printf("  %04d",instruction_counter);j+=5;}
-                    }
-                    if(i==5){
-                        if(j == 1){printf("Instruction Register");j+=21;}
-                        if(j ==24){ printf("  %04d",instruction_register);j+=5;}
-                    }
-                    if(i==7){
-                        if(j == 1){printf("Operation Code");j+=15;}
-                        if(j ==24){ printf("  %04d",operation_code);j+=5;}
-                    }
-                    if(i==9){
-                        if(j == 1){printf("Operand");j+=8;}
-                        if(j ==24){ printf("  %04d",operand);j+=5;}
-                    }
-
-                    if(j == 23 || i == 2 || i == 4 || i == 6 ||i == 8 ||i == 10){printf("_");}
-                    else{printf(" ");}
-                }
-            }
-            printf("\n");
-        }
-        printf("\n");
-    }
+    return 0;
+}
 
     return 0;
 }

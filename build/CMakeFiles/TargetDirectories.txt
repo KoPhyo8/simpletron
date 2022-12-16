@@ -1,0 +1,3 @@
+/home/lenovo/simpletron/simpletron/build/CMakeFiles/SimpleTron.dir
+/home/lenovo/simpletron/simpletron/build/CMakeFiles/edit_cache.dir
+/home/lenovo/simpletron/simpletron/build/CMakeFiles/rebuild_cache.dir
